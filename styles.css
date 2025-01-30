@@ -1,0 +1,723 @@
+/* Body styles */
+body {
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    font-family: Arial, sans-serif;
+    overflow-x: hidden; /* Prevent horizontal overflow */
+    overflow-y: auto;   /* Allows vertical scrolling if necessary */
+}
+
+/* Header styles */
+.header {
+    width: 1279.9px;
+    height: 40px; 
+    background-color: white;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 80px; 
+    box-sizing: border-box;
+    
+}
+
+/* Foodieland text */
+.foodie {
+    font-family: 'Lobster', cursive; /* Use Lobster font */
+    font-size: 30px; /* Adjust font size for a bigger look */
+    font-weight: normal;
+    color: black;
+    margin: 0;
+}
+
+/* Navigation links */
+.nav-links {
+    display: flex;
+    gap: 20px; /* Space between links */
+  
+}
+
+.nav-links p {
+    color: black;
+    margin: 0;
+    cursor: pointer;
+}
+
+/* Social media icons */
+.social-icons {
+    display: flex;
+    gap: 15px; /* Space between icons */
+}
+
+.social-icons i {
+    color: black;
+    font-size: 18px;
+}
+
+.social-icons i:hover {
+    color: #ccc;
+}
+
+/* Content section style */
+.content-section {
+    position: relative;
+    top: 150px;
+    margin: 20px;
+    display: flex;
+    max-height: fit-content;
+    border-radius: 30px;
+    margin-bottom: 330px;
+   
+}
+
+/* Card 1 style */
+.card1 {
+    width: 620px;
+    height: 640px;
+    background-color: #E7FAFE;
+    position: relative; /* Ensure .spicy and .content use this as a reference */
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+.spicy {
+    position: absolute; /* Use absolute positioning */
+    width: 520px;
+    height: 154px;
+    top: 277px; /* Position based on Figma design */
+    left: 130px;
+    gap: 0px;
+    opacity: 1; /* Ensure it's visible */
+    font-family: Inter, sans-serif;
+    font-size: 64px;
+    font-weight: 600;
+    line-height: 77.45px;
+    letter-spacing: -0.04em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    border-radius: 10px;
+}
+
+.content {
+    position: absolute; /* Use absolute positioning */
+    width: 520px;
+    height: 56px;
+    top: 431px; /* 277px (spicy top) + 154px (spicy height) = 431px */
+    left: 130px;
+    gap: 0px;
+    font-family: Inter, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    border-radius: 10px;
+}
+
+
+/* Card 2 style */
+.card2 {
+    width: 660px;
+    height: 640px;
+    background-color: rgb(136, 124, 124); 
+    position: relative;
+    border-radius: 10px; /* Rounded corners */
+    box-sizing: border-box;
+    
+}
+.button1{
+    position: relative;
+    
+    border-color: transparent;
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+
+
+    width: 156px;
+height: 45px;
+top: 50px;
+left: 110px;
+gap: 0px;
+opacity: 0px;
+
+}
+.spicy {
+    position: absolute; /* Use absolute positioning */
+    width: 520px;
+    height: 154px;
+    top: 67px; /* Position based on Figma design */
+    left: 90px;
+    gap: 0px;
+    opacity: 1; /* Ensure it's visible */
+    font-family: Inter, sans-serif;
+    font-size: 44px;
+    font-weight: 600;
+    line-height: 77.45px;
+    letter-spacing: -0.04em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+.spicy2 {
+    position: absolute; /* Use absolute positioning */
+    width: 520px;
+    height: 154px;
+    top: 137px; /* Position based on Figma design */
+    left: 90px;
+    gap: 0px;
+    opacity: 1; /* Ensure it's visible */
+    font-family: Inter, sans-serif;
+    font-size: 44px;
+    font-weight: 600;
+    line-height: 77.45px;
+    letter-spacing: -0.04em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+
+.content {
+    position: absolute;
+    width: 520px;
+    height: 56px;
+    top: 231px;
+    left: 90px;
+    gap: 0px;
+    font-family: Inter, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+   
+}
+.button2{
+    width: 100px;
+height: 47px;
+display: flex;
+left:  90px;
+top: 290px;
+gap: 4px;
+opacity: 0px;
+position: relative;
+font-family: Inter;
+font-size: 14px;
+font-weight: 500;
+line-height: 10.94px;
+letter-spacing: -0.02em;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+border-radius: 10px;
+border-color: transparent;
+padding: 5px;
+align-items: center;
+
+
+}
+.button3{
+    width: 100px;
+height: 47px;
+display: flex;
+left:  250px;
+top: 245px;
+gap: 4px;
+opacity: 0px;
+position: relative;
+font-family: Inter;
+font-size: 14px;
+font-weight: 500;
+line-height: 10.94px;
+letter-spacing: -0.02em;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+border-radius: 10px;
+padding: 5px;
+align-items: center;
+border-color: transparent;
+
+
+
+}
+.badge{
+    left: 550px;
+    top: -70px;
+  
+    position: relative;
+    z-index: 999;
+}
+.group1{
+    z-index: 999;
+    left: 90px;
+    top: 170px;
+  
+    position: relative;
+}
+
+.group2{
+    z-index: 999;
+    left: 320px;
+    top: 120px;
+    width: 150px;
+  
+    position: relative;
+}
+.recipe{
+    height: 15px;
+}
+.dog{
+    height: 15px;
+    
+    
+    
+}
+
+
+.image-container {
+    display: flex;
+    justify-content: space-between; /* Evenly spaces out the content inside the container */
+    max-width: 100%; /* Takes full width of the screen */
+    margin: 20px auto; /* Centers the container */
+    flex-wrap: wrap; /* Ensures responsiveness */
+    gap: 15px; /* Adds space between images */
+    margin-bottom: 90px;
+    position: relative; /* Positioning context for absolute positioning */
+    margin-top: 120px;
+    margin: 10px;
+  }
+  
+  .categories, .view {
+    position: absolute; /* Absolutely position them inside the container */
+    top: 0; /* Place them at the top of the container */
+   
+    color: black;
+  }
+  
+  .categories {
+    left: 9px; /* Align the 'Categories' text to the left */
+    font-size: 1.5rem;
+    margin: 0;
+    top: -70px;
+    margin-left: 20px;
+    font-size: larger;
+    font-weight: 600;
+    
+  }
+  
+  .view {
+    right: 0; /* Align the 'View Categories' button to the right */
+    font-size: 1rem;
+    padding: 10px 20px;
+    cursor: pointer;
+    align-self: center; /* Align the button vertically */
+    top: -70px;
+    margin-right: 20px;
+    background-color: #E7FAFE;
+    border-radius: 10px;
+    border-color: transparent;
+  }
+  
+  .image-box {
+    width: calc(100% / 6 - 15px); /* Divides the container into 6 equal columns with space between */
+    height: 220px; /* Set a fixed height for the images */
+    overflow: hidden; /* Ensures no overflow if the image is larger */
+    border-radius: 8px; /* Optional: rounded corners for the image boxes */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: soft shadow for image boxes */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    object-fit: cover;
+  }
+  
+  .image-box img {
+    width: 100%; /* Make the image fill the width of the container */
+    height: 100%; /* Ensure the image fills the height */
+    object-fit: cover; /* Ensure the image covers the box while maintaining its aspect ratio */
+    border-radius: 8px; /* Optional: rounded corners for the images */
+  }
+  
+
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin: 5px;
+    text-align: center;
+    padding: 20px;
+    margin-top: 50px;
+  }
+  
+  .container h1 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+  }
+  
+  .container p {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 20px;
+  }
+  
+  .image-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+  }
+  
+  .image-grid img {
+    width: 390px;
+    height: 380px;
+    border-radius: 8px;
+  }
+  
+
+  .rectangular-container {
+    display: flex;
+    width: 1280px;
+    height: 597px;
+    gap: 0px;
+    opacity: 1;
+    position: relative;
+    overflow: visible;
+    left: 80px;
+    margin-bottom: 90px;
+    margin-top: 70px;
+
+  }
+  
+  .left-content {
+    width: 526px;
+    height: 116px;
+    gap: 0px;
+    opacity: 1;
+    font-family: Inter, sans-serif;
+    text-align: left;
+  }
+  
+  .left-content h1 {
+    margin-top: 90px;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 58.09px;
+    letter-spacing: -0.04em;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    margin-bottom: 50px;
+  }
+  
+  .left-content p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    margin-bottom: 94px;
+  }
+  
+  .learn-more {
+    background-color: black;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  
+  .learn-more:hover {
+    background-color: rgb(61, 56, 56);
+  }
+  
+  .right-image {
+    width: 710px;
+    height: 550px;
+    gap: 0px;
+    opacity: 1;
+    position: relative;
+    top: 0;
+    left: 0; /* Adjusted */
+    z-index: 1;
+    padding-top: 10px;
+    object-fit: cover;
+  }
+  
+  
+  .right-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+
+  
+
+
+
+
+
+  .food-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 50px;
+background-color: #E7FAFE;
+
+  }
+  
+  .food-heading {
+    font-size: 48px;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 80px;
+  }
+  
+  .food-subheading {
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 40px;
+  }
+  
+  .food-image-grid {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly; /* Spread images evenly in a horizontal row */
+    margin-top: 50px;
+  }
+  
+  .food-image-grid img {
+    width: 290px;
+    height: 445.44px;
+    opacity: 1;
+    object-fit: cover; /* Ensures images maintain aspect ratio */
+  }
+  
+  .instagram-button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .food-instagram-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 229px;
+    height: 60px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    margin-top: 40px;
+    margin-bottom: 25px;
+    gap: 10px; /* Space between the icon and text */
+    transition: background-color 0.3s ease, transform 0.2s ease; /* Adds hover animation */
+  }
+  
+  .food-instagram-button:hover {
+    background-color: rgb(90, 85, 85);
+    transform: scale(1.05); /* Slightly enlarges the button on hover */
+  }
+  
+  .instagram-icon {
+    font-size: 18px; /* Size of the icon */
+    line-height: 1;
+    display: flex;
+    align-items: center;
+  }
+  
+  .instagram1 {
+    height: auto; /* Adjusts the emoji or icon height */
+  }
+  
+
+  .flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1280px;
+    gap: 16px;
+    padding: 20px;
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 80px;
+    margin: 5 5 80 5;
+  }
+
+  .flex-item {
+    flex: 1 1 calc(25% - 16px); /* Ensures 4 items per row with spacing */
+    position: relative;
+    overflow: hidden;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+
+  .flex-item img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+
+  .text-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 12px;
+    color: #fff;
+    background: rgba(0, 0, 0, 0.5);
+    font-size: 16px;
+    font-weight: bold;
+   
+  }
+
+  .text-overlay-right {
+    text-align: right;
+  }
+
+  .text-wrapper {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+  
+  .text-wrapper h1 {
+    text-align: left;
+    margin: 0; /* Reset any margins that may affect layout */
+
+
+
+    font-family: Inter;
+font-size: 48px;
+font-weight: 600;
+line-height: 58.09px;
+letter-spacing: -0.04em;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
+  }
+  
+  .text-wrapper p {
+    text-align: right;
+    max-width: 50%;
+    margin: 0; /* Reset margin to prevent unexpected shifts */
+
+
+
+    font-family: Inter;
+font-size: 16px;
+font-weight: 400;
+line-height: 28px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
+  }
+
+  .text-wrapper h1, 
+.text-wrapper p {
+  max-width: 500px; /* Set a maximum width to force wrapping */
+  word-wrap: break-word; /* Ensure the text wraps within the element */
+}
+
+
+
+
+.subscription-container {
+  position: relative;
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+  margin-bottom: 90px;
+  border-radius: 15px;
+}
+
+.background-image {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  opacity: 0.8;  /* Optional for effect */
+}
+
+.form-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #E7FAFE;
+  color: black;
+  padding: 20px;
+  border-radius: 15px;
+  text-align: center;
+}
+
+.form-overlay h1 {
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+
+.form-overlay p {
+  font-size: 1em;
+  margin-bottom: 20px;
+}
+
+.email-form {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 20px;
+  background-color: white;
+  padding: 10px;
+}
+
+.email-form input {
+  padding: 10px;
+  font-size: 1em;
+  width: 70%;
+  border: 0px;
+  border-radius: 4px;
+}
+
+.email-form button {
+  padding: 10px 20px;
+  font-size: 1em;
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.email-form button:hover {
+  background-color:rgb(92, 78, 78);
+}
+
+
+
+
+
+
+
+
