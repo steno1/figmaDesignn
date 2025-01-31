@@ -21,6 +21,41 @@ body {
     
 }
 
+
+.nav-links a {
+    text-decoration: none; 
+    display: inline-block; 
+    position: relative; 
+  }
+  
+  .nav-links a p {
+    margin: 0; 
+  
+    transition: color 0.3s ease; 
+  }
+  
+  /* Cool hover animation */
+  .nav-links a p::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+  
+    background-color: #000; /* Line color */
+    transition: width 0.3s ease; /* Smooth transition for the underline */
+  }
+  
+  .nav-links a:hover p {
+    color: rgb(13, 109, 13); /* Change text color on hover*/
+    font-weight: 600;
+  }
+  
+  .nav-links a:hover p::after {
+    width: 100%; /* Makes the underline grow */
+  }
+  
+
 /* Foodieland text */
 .foodie {
     font-family: 'Lobster', cursive; /* Use Lobster font */
@@ -33,7 +68,7 @@ body {
 /* Navigation links */
 .nav-links {
     display: flex;
-    gap: 20px; /* Space between links */
+    gap: 30px; /* Space between links */
   
 }
 
@@ -57,9 +92,6 @@ body {
 .social-icons i:hover {
     color: #ccc;
 }
-
-
-
 
 /* Blog container */
 .Blogcontainer {
@@ -100,11 +132,23 @@ body {
     width: 40px; /* Image width */
     height: 40px; /* Image height */
 }
+.TextImageContainer {
+    position: relative; /* Reference point for child elements */
+    display: flex; /* Aligns the image and text horizontally */
+    justify-content: space-between; /* Pushes the image to the left and text to the right */
+    align-items: center; /* Vertically aligns items */
+    gap: 10px; /* Optional: Adds space between the image and text */
+    margin-top: 50px;
+}
 
-.Blogimage {
-    width: 100%;
-    height: 100%;
-    object-fit: cover; /* Ensures the image fills the container without distortion */
+
+.blogImage {
+    position: absolute; /* Position relative to the .CustomContainer */
+    top: 1090px; 
+    right: 230px; 
+    width: 70px; /* Adjust the image size */
+    height: auto; /* Maintain aspect ratio */
+    object-fit: cover; /* Prevent distortion */
 }
 
 /* Image name and date container */
@@ -166,12 +210,10 @@ body {
     margin-bottom: 90px;  
   }
   
-
- /* Container with the given layout */
-.CustomContainer {
+  .CustomContainer {
+    position: relative; /* Make it a positioning context */
     width: 920px;
     height: 1772px;
-    position: absolute;
     margin-top: 140px;
     left: 150px;
     gap: 0px;
@@ -184,13 +226,14 @@ body {
     justify-content: flex-start;
 }
 
+
 /* Content inside the container */
 .ContentText {
     width: 455px;
     height: 29px;
     position: absolute;
-    margin-top: 20px;
-    left: 50px;
+    margin-top: 50px;
+    left: -410px;
     gap: 0px;
     opacity: 1;
     font-family: 'Inter', sans-serif;
@@ -201,6 +244,28 @@ body {
     text-align: left;
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
+
+}
+
+.ContentText2{
+    width: 455px;
+   
+    position: relative;
+    margin-top: 40px;
+    
+    gap: 0px;
+    opacity: 1;
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 29.05px;
+    letter-spacing: -0.04em;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+  
+    display: flex;
+    justify-content: flex-start; 
+    left: -180px;
 }
 
 .text1 {
@@ -220,9 +285,25 @@ body {
     margin-right: 78px;
 }
 
+.text2 {
+    width: 739px;
+    height: 84px;
+    margin-top: 15px;
+    left: 180px;
+    gap: 0px;
+    opacity: 1;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    margin-right: 78px;
+}
 
 .CustomContainer img {
-    position: absolute;
+    position: relative;
     top: 20px;  /* Aligns the image with the top of the content */
     right: 0;  /* Places the image at the extreme right */
     width: 70px;  /* Adjust image size as needed */
@@ -230,3 +311,27 @@ body {
     margin-right: 40px;
   
 }
+
+
+  .image-container {
+    width: 840px;
+    height: 400px;
+    margin-top: 40px;
+    gap: 0px;
+    border-radius: 20px;
+    opacity: 1; 
+    position: relative; /* To position it relative to the page */
+    display: flex;
+    justify-content: center; /* Centers the image horizontally */
+    align-items: center; /* Centers the image vertically */
+    
+  }
+  
+  .image-container img {
+   width: 90%;
+    border-radius: 20px; 
+    padding: 10px;
+    margin-bottom: 28px;
+  }
+  
+  

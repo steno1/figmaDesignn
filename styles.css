@@ -21,11 +21,44 @@ body {
     box-sizing: border-box;
     
 }
+.nav-links a {
+  text-decoration: none; 
+  display: inline-block; 
+  position: relative; 
+}
+
+.nav-links a p {
+  margin: 0; 
+
+  transition: color 0.3s ease; 
+}
+
+/* Cool hover animation */
+.nav-links a p::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+
+  background-color: #000; /* Line color */
+  transition: width 0.3s ease; /* Smooth transition for the underline */
+}
+
+.nav-links a:hover p {
+  color: rgb(13, 109, 13); /* Change text color on hover*/
+  font-weight: 600;
+}
+
+.nav-links a:hover p::after {
+  width: 100%; /* Makes the underline grow */
+}
+
 
 /* Foodieland text */
 .foodie {
-    font-family: 'Lobster', cursive; /* Use Lobster font */
-    font-size: 30px; /* Adjust font size for a bigger look */
+    font-family: 'Lobster', cursive; 
+    font-size: 30px; 
     font-weight: normal;
     color: black;
     margin: 0;
@@ -34,7 +67,7 @@ body {
 /* Navigation links */
 .nav-links {
     display: flex;
-    gap: 20px; /* Space between links */
+    gap: 30px; /* Space between links */
   
 }
 
@@ -146,10 +179,10 @@ opacity: 0px;
 
 }
 .spicy {
-    position: absolute; /* Use absolute positioning */
+    position: absolute; 
     width: 520px;
     height: 154px;
-    top: 67px; /* Position based on Figma design */
+    top: 67px;
     left: 90px;
     gap: 0px;
     opacity: 1; /* Ensure it's visible */
@@ -163,10 +196,10 @@ opacity: 0px;
     text-decoration-skip-ink: none;
 }
 .spicy2 {
-    position: absolute; /* Use absolute positioning */
+    position: absolute; 
     width: 520px;
     height: 154px;
-    top: 137px; /* Position based on Figma design */
+    top: 137px; 
     left: 90px;
     gap: 0px;
     opacity: 1; /* Ensure it's visible */
@@ -444,7 +477,7 @@ border-color: transparent;
     opacity: 1;
     position: relative;
     top: 0;
-    left: 0; /* Adjusted */
+    left: 0; 
     z-index: 1;
     padding-top: 10px;
     object-fit: cover;
@@ -537,7 +570,7 @@ background-color: #E7FAFE;
   }
   
   .instagram1 {
-    height: auto; /* Adjusts the emoji or icon height */
+    height: auto; 
   }
   
 
@@ -805,8 +838,6 @@ text-decoration-skip-ink: none;
       justify-items: center; /* Center items horizontally in their grid cells */
       padding: 20px;
       margin-top: 400px;
-    
-      background-color: red;
       position: relative;
   }
 
@@ -824,7 +855,7 @@ text-decoration-skip-ink: none;
       padding: 10px 20px;
       margin-bottom: 20px;
       text-align: center;
-      background-color: #f7c948;
+
       color: #fff;
       border: none;
       border-radius: 5px;
