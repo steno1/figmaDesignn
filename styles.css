@@ -7,7 +7,9 @@ body {
     overflow-x: hidden; /* Prevent horizontal overflow */
     overflow-y: auto;   /* Allows vertical scrolling if necessary */
 }
-
+html {
+  scroll-behavior: smooth; /* Enables smooth scrolling */
+}
 /* Header styles */
 .header {
     width: 1279.9px;
@@ -761,6 +763,123 @@ text-decoration-skip-ink: none;
   height: auto;
   border-radius: 10px;
 }
+
+
+
+.tcontainer {
+  width: 1280px;
+  height: 193px;
+  left: 80px;
+  gap: 0px;
+  opacity: 1;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.tfoodieland {
+  font-family: 'Lobster', sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  opacity: 1;
+}
+
+.tdescription {
+  width: 400px;
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  text-align: left;
+  opacity: 1;
+  margin-top: 10px;
+}
+
+.tnav-links {
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: flex;
+  gap: 20px;
+  left: 900px;
+  margin-top: 10px;
+}
+
+.tnav-link {
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19.36px;
+  letter-spacing: -0.02em;
+  text-align: left;
+  opacity: 1;
+  text-decoration: none;
+  color: black;
+}
+
+hr {
+  width: 1280px;
+  height: 0px;
+  border-top: 1px solid #0000001A;
+  opacity: 1;
+}
+
+.tfooter-text {
+  width: 336px;
+  height: 23px;
+  font-family: 'Eudoxus Sans', sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 22.68px;
+  letter-spacing: -0.02em;
+  text-align: center;
+  opacity: 1;
+  margin-top: 10px;
+ left: 450px;
+ position: relative;
+}
+
+.tsocial-media-icons {
+  position: absolute;
+  right: 0;
+  display: flex;
+  justify-content: space-between;
+  width: 133.96px;
+  height: 22px;
+  opacity: 1;
+  left:1020px;
+  margin-top: 110px;
+}
+
+.tsocial-icon {
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19.36px;
+  color: black;
+  text-decoration: none;
+}
+
+.tsocial-icon.facebook:hover {
+  color: #3b5998; /* Facebook color */
+}
+
+.tsocial-icon.twitter:hover {
+  color: #00acee; /* Twitter color */
+}
+
+.tsocial-icon.instagram:hover {
+  color: #e4405f; /* Instagram color */
+}
+
+
+
+
 
 /* General Mobile Styles */
 @media screen and (max-width: 768px) {
