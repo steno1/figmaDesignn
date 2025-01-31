@@ -460,10 +460,6 @@ border-color: transparent;
 
   
 
-
-
-
-
   .food-container {
     width: 100%;
     display: flex;
@@ -652,7 +648,7 @@ text-decoration-skip-ink: none;
   width: 100%;
   height: auto;
   border-radius: 8px;
-  opacity: 0.8;  /* Optional for effect */
+  opacity: 0.8;  
 }
 
 .form-overlay {
@@ -713,6 +709,141 @@ text-decoration-skip-ink: none;
 .email-form button:hover {
   background-color:rgb(92, 78, 78);
 }
+
+
+.footer-container {
+  width: 1280px;
+  height: 193px;
+  position: relative; 
+  left: 80px;
+  margin-bottom: 50px; 
+  opacity: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+/* General Mobile Styles */
+@media screen and (max-width: 768px) {
+  body {
+      padding: 0 10px; /* Add some padding to prevent content from touching edges */
+  }
+
+  .header {
+      padding: 0 20px; /* Reduce side padding for smaller screens */
+  }
+
+  .content-section {
+      flex-direction: column; /* Stack items vertically */
+      align-items: center; /* Center items horizontally */
+      margin: 10px 0;
+  }
+
+  .card1, .card2 {
+      width: 300px; 
+      margin: 10px 0; /* Add some spacing between cards */
+  }
+
+  .spicy, .content, .spicy2 {
+      left: 0; /* Center text */
+      width: 90%; /* Reduce width for better spacing */
+      margin: 0 auto; /* Center horizontally */
+      text-align: center; /* Align text in the center */
+  }
+
+  .button1, .button2, .button3 {
+      left: 0; /* Center buttons */
+      margin: 10px auto; /* Add spacing between buttons */
+      text-align: center;
+  }
+
+
+  .image-box {
+      width: calc(50% - 10px); /* Display two images per row */
+      height: auto; /* Let height adjust dynamically */
+  }
+
+  .food-image-grid {
+      flex-wrap: wrap; /* Stack images */
+      gap: 10px;
+      justify-content: center;
+  }
+
+  .food-image-grid img {
+      width: 90%; /* Reduce image size */
+      margin: 0 auto; /* Center images */
+  }
+
+  .rectangular-container {
+      flex-direction: column; /* Stack content vertically */
+      align-items: center; /* Center-align items */
+  }
+
+  .left-content {
+      text-align: center; /* Center-align text */
+      margin-bottom: 20px; /* Add spacing below */
+  }
+
+  .right-image {
+      width: 100%; /* Make the image responsive */
+      height: auto;
+  }
+}
+
+/* Styles for Mobile */
+@media screen and (max-width: 768px) {
+  .image-container {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr); /* 3 items per row */
+      gap: 10px; /* Add space between items */
+      justify-items: center; /* Center items horizontally in their grid cells */
+      padding: 20px;
+      margin-top: 400px;
+    
+      background-color: red;
+      position: relative;
+  }
+
+  .categories {
+      grid-column: span 3; /* Span across all 3 columns */
+      font-size: 24px;
+      font-weight: bold;
+      margin-bottom: 10px;
+      text-align: center;
+  }
+
+  .view {
+      grid-column: span 3; /* Span across all 3 columns */
+      font-size: 18px;
+      padding: 10px 20px;
+      margin-bottom: 20px;
+      text-align: center;
+      background-color: #f7c948;
+      color: #fff;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+  }
+
+  .image-box {
+      width: 100%; /* Ensure the images adapt to their grid cells */
+      text-align: center;
+  }
+
+  .image-box img {
+      width: 100%; /* Make the image fill the grid cell */
+      height: auto; /* Maintain aspect ratio */
+      border-radius: 10px; /* Optional: Rounded corners */
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2); /* Optional: Add a shadow */
+  }
+}
+
 
 
 

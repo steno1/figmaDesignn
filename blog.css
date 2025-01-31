@@ -1,0 +1,232 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    font-family: Arial, sans-serif;
+    overflow-x: hidden; /* Prevent horizontal overflow */
+    overflow-y: auto;   /* Allows vertical scrolling if necessary */
+}
+
+/* Header styles */
+.header {
+    width: 1279.9px;
+    height: 40px; 
+    background-color: white;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 80px; 
+    box-sizing: border-box;
+    
+}
+
+/* Foodieland text */
+.foodie {
+    font-family: 'Lobster', cursive; /* Use Lobster font */
+    font-size: 30px; /* Adjust font size for a bigger look */
+    font-weight: normal;
+    color: black;
+    margin: 0;
+}
+
+/* Navigation links */
+.nav-links {
+    display: flex;
+    gap: 20px; /* Space between links */
+  
+}
+
+.nav-links p {
+    color: black;
+    margin: 0;
+    cursor: pointer;
+}
+
+/* Social media icons */
+.social-icons {
+    display: flex;
+    gap: 15px; /* Space between icons */
+}
+
+.social-icons i {
+    color: black;
+    font-size: 18px;
+}
+
+.social-icons i:hover {
+    color: #ccc;
+}
+
+
+
+
+/* Blog container */
+.Blogcontainer {
+    width: 80%;
+    max-width: 1221px; /* Set max-width to keep the container within a reasonable width */
+    margin: 30px auto; /* Center it horizontally with top margin */
+    padding: 20px;
+
+}
+
+/* Blog header - Title */
+.Blogheader {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.Blogtitle {
+    font-size: 44px;
+    font-weight: 600;
+    line-height: 77.45px;
+    letter-spacing: -0.04em;
+    text-align: center;
+    margin: 0;
+}
+
+/* Blog footer - Image, Name, and Date in a single horizontal line */
+.Blogfooter {
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Align vertically in the center */
+    gap: 20px; /* Space between the image, name, and date */
+    margin-bottom: 30px;
+}
+
+/* Image container */
+.Blogimage-container {
+    width: 40px; /* Image width */
+    height: 40px; /* Image height */
+}
+
+.Blogimage {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensures the image fills the container without distortion */
+}
+
+/* Image name and date container */
+.Blogimage-details {
+    display: flex;
+    flex-direction: row; /* Align name and date in a row */
+    align-items: center; /* Vertically center name and date with respect to the image */
+    gap: 10px; /* Space between image name and date */
+    justify-content: flex-start; /* Align them to the left horizontally (optional) */
+}
+
+/* Image name style */
+.Blogimage-name {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19.36px;
+    letter-spacing: -0.02em;
+}
+
+/* Date style */
+.Blogdate {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16.94px;
+    letter-spacing: -0.02em;
+}
+
+/* Blog content (description) */
+.Blogcontent {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.Blogdescription {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #333;
+    padding: 0 20px;
+    text-align: center;
+}
+
+.SecondContainer {
+    width: 1280px;
+    height: 500px;
+    position: relative;  
+    top: 80px;
+    left: 10px;
+    gap: 0px;
+    opacity: 1;
+    background-color: #f0f0f0;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+    margin-bottom: 90px;  
+  }
+  
+
+ /* Container with the given layout */
+.CustomContainer {
+    width: 920px;
+    height: 1772px;
+    position: absolute;
+    margin-top: 140px;
+    left: 150px;
+    gap: 0px;
+    opacity: 1; 
+    background-color: #f0f0f0;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+/* Content inside the container */
+.ContentText {
+    width: 455px;
+    height: 29px;
+    position: absolute;
+    margin-top: 20px;
+    left: 50px;
+    gap: 0px;
+    opacity: 1;
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 29.05px;
+    letter-spacing: -0.04em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+
+.text1 {
+    width: 739px;
+    height: 84px;
+    margin-top: 65px;
+    left: 180px;
+    gap: 0px;
+    opacity: 1;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    margin-right: 78px;
+}
+
+
+.CustomContainer img {
+    position: absolute;
+    top: 20px;  /* Aligns the image with the top of the content */
+    right: 0;  /* Places the image at the extreme right */
+    width: 70px;  /* Adjust image size as needed */
+    height: auto;  /* Keep aspect ratio intact */
+    margin-right: 40px;
+  
+}
