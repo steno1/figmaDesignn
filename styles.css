@@ -111,7 +111,7 @@ html {
     width: 620px;
     height: 640px;
     background-color: #E7FAFE;
-    position: relative; /* Ensure .spicy and .content use this as a reference */
+    position: relative;
     border-radius: 10px;
     box-sizing: border-box;
 }
@@ -278,7 +278,6 @@ align-items: center;
 border-color: transparent;
 
 
-
 }
 .badge{
     left: 550px;
@@ -309,8 +308,7 @@ border-color: transparent;
 .dog{
     height: 15px;
     
-    
-    
+       
 }
 
 
@@ -667,9 +665,6 @@ text-decoration-skip-ink: none;
   word-wrap: break-word; /* Ensure the text wraps within the element */
 }
 
-
-
-
 .subscription-container {
   position: relative;
   width: 100%;
@@ -763,8 +758,6 @@ text-decoration-skip-ink: none;
   height: auto;
   border-radius: 10px;
 }
-
-
 
 .tcontainer {
   width: 1280px;
@@ -876,8 +869,6 @@ hr {
 .tsocial-icon.instagram:hover {
   color: #e4405f; /* Instagram color */
 }
-
-
 
 
 
