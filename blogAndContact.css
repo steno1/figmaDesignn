@@ -522,6 +522,7 @@ body {
 
 
   .tcontainer {
+    margin-top: -50px;
     width: 1280px;
     height: 193px;
     left: 80px;
@@ -577,6 +578,12 @@ body {
     color: black;
 }
 
+
+.tnav-link:hover{
+  color: green;
+  font-weight: 600;
+  }
+  
 hr {
     width: 1280px;
     height: 0px;
@@ -630,4 +637,49 @@ hr {
 
 .tsocial-icon.instagram:hover {
     color: #e4405f; 
+}
+
+
+.outer-container {
+  width: 1280px;
+  height: 440px;
+  gap: 25px;
+  opacity: 1;
+  position: relative;
+  display: flex;
+  left: 30px;
+  margin-bottom: 60px;
+}
+
+.inner-container {
+  width: 290px;
+  height: 291.2px;
+
+  gap: 10px;
+  border-radius: 20px 0px 0px 0px;
+  opacity: 1;
+  position: relative;
+  margin-right: 0;
+}
+.food1{
+  display: flex;
+  gap: 16px;
+}
+.salad{
+  margin-top: 13px;
+  font-weight: 600;
+}
+.salad2{
+  margin-top: 0px;
+  font-size: medium;
+  height: 10px;
+}
+
+.food2{
+  display: flex;
+  position: relative;
+  top: 13px;
+  gap: 16px;
+
+  margin-top: 13px;
 }
