@@ -585,10 +585,16 @@ body {
 #blog{
   
   margin-top: 16px;
+  margin-right: 15px;
 }
 #contact{
   margin-left: -15px;
   padding-right: 10px;
+}
+
+#about{
+  margin-top: 16px;
+  margin-left: -15px;
 }
 
 .tnav-link:hover{
