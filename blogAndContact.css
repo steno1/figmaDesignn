@@ -577,7 +577,19 @@ body {
     text-decoration: none;
     color: black;
 }
+#recipes{
+  
+  margin-top: 16px;
+}
 
+#blog{
+  
+  margin-top: 16px;
+}
+#contact{
+  margin-left: -15px;
+  padding-right: 10px;
+}
 
 .tnav-link:hover{
   color: green;
