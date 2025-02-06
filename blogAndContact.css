@@ -494,6 +494,8 @@ body {
     margin-bottom: 20px;
     background-color: white;
     padding: 10px;
+    border-radius: 10px;
+    height: 50px;
   }
   
   .email-form input {
@@ -502,6 +504,7 @@ body {
     width: 70%;
     border: 0px;
     border-radius: 4px;
+    height: 30px;
   }
   
   .email-form button {
@@ -519,7 +522,6 @@ body {
     background-color:rgb(92, 78, 78);
   }
   
-
 
   .tcontainer {
     margin-top: -50px;
@@ -779,4 +781,94 @@ textarea {
 
 .button1:hover {
   background-color: rgb(77, 66, 66);
+}
+#submit2{
+  border-radius: 10px;
+}
+
+
+.contact{
+  display: flex;
+  justify-content: center;
+  font-size: 4rem;
+  font-weight: 600;
+  padding: 2.8rem 0;
+}
+
+.chef-form{
+  display: flex;
+  justify-self: center;
+  gap: 2.5rem;
+
+} 
+
+.chef-image{
+  width: 22em;
+  height: 27rem;
+}
+
+.personal-info{
+  display: flex;
+  gap: 2.5rem;
+}
+
+
+label{
+  display: block;
+  font-size: 0.88rem;
+  font-weight: 500;
+  color: #00000099;
+  margin: 1.4rem 0 0.625rem 0;
+}
+
+input,select, textarea{
+  color: #00000099;
+  border-radius: 16px;
+  border: 1px solid #0000001A;
+  outline: none;
+
+}
+
+input,select{
+  width: 24rem;
+  height: 3.75rem;
+  padding: 0 0 0 0.75rem;
+}
+
+textarea{
+  width: 51.5rem;
+  height: 12.5rem;
+  padding: 1.25rem 0 0 0.75rem;
+}
+
+input:hover, select:hover, textarea:hover{
+  transition: 0.2s;
+  border: 2px solid #45c9fdd8;
+  box-shadow: 0px 0px 3px 1px #00000033;
+}
+
+.submit{
+     width: 11.25rem;
+     height: 4rem;
+     display: flex;
+     top: -50px;
+     position: relative;
+     z-index: 999;
+     border: none;
+      font-size: 1rem;
+      padding:auto;
+      color: #ffffff;
+      background-color:black;
+      border-radius: 16px;
+      margin: 2.8rem 0 0 0;
+      cursor: pointer;
+}
+
+.submit:hover{
+  transition: 0.2s;
+  background-color: #423c3ccb;
+}
+
+.personal-info{
+  padding: 20px;
 }

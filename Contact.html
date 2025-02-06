@@ -30,7 +30,11 @@
   </header>
   
 
+  
+
+
   <main>
+    <!--
     <section class="contactContainer">
       <h1 class="contact">Contact</h1>
       <div class="contactContent">
@@ -56,7 +60,63 @@
           </form>
         </div>
       </div>
-    </section>
+    </section> -->
+
+
+ <!-- Contact form section  -->
+    
+ <section class="section-1">
+        
+  <p class="contact">Contact Us</p>
+
+  <div class=chef-form>
+
+      <img src="blogImage/Layer 1 1.png" alt="contact-chef" class="chef-image"> 
+      
+      <form action="#">
+          <div class="personal-info">
+              <div>
+                  <label for="fulname">NAME</label>
+              <input type="text" name="fulname"  id="fulname" placeholder="Enter your name...">
+
+              </div>
+             <div>
+                 <label for="email">EMAIL ADRESS</label>
+                 <input type="text" name="email" id="email" placeholder="Your email adress">
+             </div>
+              
+          </div>
+
+          <div class="personal-info">
+              <div>
+                  <label for="subject">SUBJECT</label>
+                  <input type="text" name="subject" id="subject" placeholder="Enter subject...">
+              </div>
+
+              <div>
+                  <label for="enquiry">ENQUIRY TYPE</label>
+                  <select name="enquiry" id="enquiry" required>
+                      <option value="Advertising">Advertising</option>
+                      <option value="marketing">Marketing</option>
+                  </select>
+              </div>
+          </div>
+
+          <div>
+              <label for="massage">MESSAGES</label>
+              <textarea name="message" id="masssage" placeholder="Enter your message..." required></textarea>
+          </div>
+          
+              <input type="submit" name="submit" id="submit" class="submit">
+          
+           
+      </form>
+  </div>
+</section>
+
+
+
+    
 
     <section class="subscription-container">
       <img src="images/Mask Group 11.png" alt="mask" class="background-image" />
@@ -66,7 +126,7 @@
           
           <div class="email-form">
               <input type="email" id="email" placeholder="Your Email Address" />
-              <button type="submit">Subscribe</button>
+              <button type="submit" id="submit2">Subscribe</button>
           </div>
       </div>
     </section>
