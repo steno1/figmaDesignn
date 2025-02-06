@@ -835,6 +835,7 @@ input,select{
   padding: 0 0 0 0.75rem;
 }
 
+
 textarea{
   width: 51.5rem;
   height: 12.5rem;
@@ -871,4 +872,14 @@ input:hover, select:hover, textarea:hover{
 
 .personal-info{
   padding: 20px;
+}
+
+
+#fulname {
+
+ width: 23.117rem
+
+}
+.Webflow{
+  color: red;
 }
